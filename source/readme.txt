@@ -25,6 +25,8 @@ Plugin : [Homepage](***)
 4. Click `Install Now`
 5. Activate the plugin on the Plugin dashboard
 
+On your front end pages, add the shortcode [auo_music_player]
+
 == Changelog ==
 
 = 1.0.0 =

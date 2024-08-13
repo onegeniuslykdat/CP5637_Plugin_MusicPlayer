@@ -21,6 +21,8 @@ AUO Music Player is a plugin that enhances your WordPress website with great aud
 
 It features an admin interface for uploading new songs. This also shows the number of times the songs has been listened to.
 
+On your front end pages, add the shortcode **[auo_music_player]**.
+
 ## Installation
 * Clone this repo
 * Zip the plugin source files contained in the source folder
