@@ -1,10 +1,10 @@
 <?php
 
-global $wpdb;
-$table_name = $wpdb->prefix . 'auo_songs_list';
-
 function auo_music_player($atts)
 {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'auo_songs_list';
+
     // Fetch songs from the database
     $songs = $wpdb->get_results("SELECT * FROM $table_name ORDER BY play_count DESC");
 
@@ -35,8 +35,8 @@ add_shortcode('auo_music_player', 'auo_music_player');
 
 function update_play_count()
 {
-    //global $wpdb;
-    //$table_name = $wpdb->prefix . 'mpmp_songs';
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'auo_songs_list';
 
     $song_name = sanitize_text_field($_POST['song_name']);
     $song = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_name WHERE song_name = %s", $song_name));
