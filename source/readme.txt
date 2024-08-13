@@ -13,7 +13,7 @@ WP Child Theme Generator is an easy solution to all your child theme creating pr
 AUO Music Player is a plugin that enhances your WordPress website with great audio from your library. Upload your favourite songs and see how well your users enjoy each song by how many times a song is played.
 
 
-Plugin : [Homepage](***)
+Plugin Repo: [Homepage](https://github.com/onegeniuslykdat/CP5637_Plugin_MusicPlayer)
 
 == Installation ==
 

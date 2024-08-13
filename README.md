@@ -6,14 +6,14 @@
 
 **Version: 1.0.0**
 
-**URL:**
+**URL: [Plugin Homepage](https://pluginstest.wpdevcloud.com/?page_id=2)**
 
 **Contact: anthonyudochukwu.onyekwere@my.jcu.edu.au**
 
 ## Repository Structure
-* ***source/*** This folder contains the source code files for the plugin functionalities. It also contains the readm.txt file. ***
+* ***source/*** This folder contains the source code files for the plugin functionalities. It also contains the readm.txt file.
 
-The following documentation files are aimed at ***
+The following documentation files are aimed at helping new developers get started with this plugin.
 * [readme.txt](source/readme.txt)
 
 ## Description

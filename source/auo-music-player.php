@@ -4,7 +4,7 @@ Plugin Name: AUO Music Player
 Description: AUO Music Player is a plugin that enhances your WordPress website with great audio from your library. Upload your favourite songs and see how well your users enjoy each song by how many times a song is played.
 Version: 1.0.0
 Author: Anthony Udochukwu Onyekwere
-URL:
+URL: https://github.com/onegeniuslykdat/CP5637_Plugin_MusicPlayer
 */
 
 // Exit if accessed directly
