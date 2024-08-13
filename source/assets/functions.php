@@ -12,17 +12,13 @@ function auo_music_player($atts)
     ob_start();
 ?>
     <div id="auo-player">
-        <!-- <audio id="mpmp-audio" controls>
-            <source id="mpmp-source" src="" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio> -->
         <ul id="auo-song-list">
             <?php foreach ($songs as $song) : ?>
                 <li data-src="<?php echo esc_url(wp_upload_dir()['url'] . '/' . $song->song_name); ?>">
                     <a href="<?php echo esc_url(wp_upload_dir()['url'] . '/' . $song->song_name); ?>">
                         <?php echo esc_html($song->song_name); ?>
                     </a>
-                    <p>Plays: <?php echo esc_html($song->play_count); ?></p>
+                    <p><em>Played: <?php echo esc_html($song->play_count); ?> times</em></p>
                 </li>
                 <br />
             <?php endforeach; ?>
