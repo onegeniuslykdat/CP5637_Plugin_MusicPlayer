@@ -82,7 +82,7 @@ function display_songs_table()
         echo '<tr>';
         echo '<td>' . esc_html($song->song_name) . '</td>';
         echo '<td>' . esc_html($song->play_count) . '</td>';
-        echo '<td><a href="' . esc_url(wp_upload_dir()['url'] . '/' . $song->song_name) . '" target="_blank">Play Song</a></td>';
+        echo '<td><a href="' . esc_url(wp_upload_dir()['url'] . '/' . $song->song_name) . '" target="_blank">Play (Admin)</a></td>';
         echo '</tr>';
     }
     echo '</tbody>';

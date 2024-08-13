@@ -2,11 +2,11 @@
 Contributors: Anthony Udochukwu Onyekwere
 Tags: theme, music, music player, songs
 Requires at least: 3.5
-Requires PHP: 5.6
-Tested up to: 6.5
+Requires PHP: 7.4
+Tested up to: 6.6.0
 Stable version: 1.0.0
 
-WP Child Theme Generator is an easy solution to all your child theme creating problems!
+AUO Music Player is your one stop music hub.
 
 == Description ==
 

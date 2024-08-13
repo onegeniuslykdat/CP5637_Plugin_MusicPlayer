@@ -6,10 +6,12 @@ jQuery(document).ready(function ($) {
     $("#auo-audio")[0].play();
 
     // Update number of times song has been played
-    var songName = $(this).text();
+    var songName = $(this).data("text");
+    var songId = $(this).data("id");
     $.post(auo_ajax.url, {
-      action: "update_play_count",
+      action: "auo_update_play_count",
       song_name: songName,
+      song_id: songId,
     });
   });
 });
