@@ -5,11 +5,11 @@ function add_admin_menu()
 {
     add_menu_page(
         'AUO Music Player',
-        'Music Player',
+        'AUO Music Player',
         'manage_options',
         'auo_admin_page',
-        'auo_admin_page_content',
-        'dashicons-admin-music',
+        'admin_page_content',
+        'dashicons-media-audio',
         20
     );
 }
@@ -23,14 +23,14 @@ function admin_page_content()
         <h1>AUO Music Player</h1>
         <form method="post" enctype="multipart/form-data">
             <?php
-            if (isset($_POST['upload_song'])) {
+            if (isset($_POST['submit_upload_song'])) {
                 handle_file_upload();
             }
             ?>
             <h2>Add New Song</h2>
             <input type="text" name="song_name" placeholder="Song Name" required>
             <input type="file" name="song_file" accept="audio/*" required>
-            <input type="submit" name="upload_song" value="Upload Song" class="button-primary">
+            <input type="submit" name="submit_upload_song" value="Upload Song" class="button-primary">
         </form>
         <hr>
         <h2>Most Played Songs</h2>
@@ -59,8 +59,7 @@ function handle_file_upload()
             $table_name,
             array(
                 'song_name' => basename($uploaded_file['name']),
-                'play_count' => 0,
-                'song_url' => $target_file
+                'play_count' => 0
             )
         );
         echo '<div class="updated"><p>Song uploaded successfully.</p></div>';

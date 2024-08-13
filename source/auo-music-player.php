@@ -5,6 +5,8 @@ Description: AUO Music Player is a plugin that enhances your WordPress website w
 Version: 1.0.0
 Author: Anthony Udochukwu Onyekwere
 URL: https://github.com/onegeniuslykdat/CP5637_Plugin_MusicPlayer
+Required WordPress version: 6.6.0
+Required PHP version: 7.4
 */
 
 // Exit if accessed directly
